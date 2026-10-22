@@ -1,0 +1,68 @@
+@media screen and (max-width: 1023px) {
+  html {
+    font-size: 75%;
+  }
+  .about-right-section .dotted-shape {
+    width: 25%;
+  }
+  .about-container .abouts-shape {
+    width: 120px;
+    height: 120px;
+    right: -30%;
+    bottom: 17%;
+  }
+  .contact-wrapper .contact-right-section {
+    text-align: center;
+    align-self: center;
+  }
+  .apps-container .apps-dotted-shape {
+    top: 20%;
+    left: -30%;
+  }
+  .apps-container .apps-square-shape {
+    width: 125px;
+    height: 125px;
+    top: -5%;
+    right: -30%;
+  }
+  .small-projects-container .small-square-shape {
+    width: 150px;
+    height: 150px;
+    top: -8%;
+    left: -35%;
+  }
+  .about-wrapper .about-right-section {
+    text-align: center;
+  }
+  .about-right-section .dotted-shape {
+    top: -10%;
+    left: 65%;
+  }
+  .about-container .about-dotted-shape {
+    width: 16%;
+    left: -22%;
+  }
+  .about-container .about-square-shape {
+    width: 100px;
+    height: 120px;
+    right: -25%;
+    bottom: 8%;
+  }
+  /* fun facts shape */
+  .fun-facts-wrapper .facts-shape {
+    right: 3%;
+    bottom: 45%;
+    width: 15%;
+  }
+  .fun-facts-wrapper .facts-dotted-shape {
+    top: 15%;
+    right: 20%;
+    width: 10%;
+  }
+  .fun-facts-wrapper .facts-square-shape {
+    width: 120px;
+    height: 120px;
+    top: 15%;
+    left: -30%;
+  }
+}

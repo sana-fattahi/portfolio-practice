@@ -1,0 +1,147 @@
+@media screen and (max-width: 767px) {
+  .fixed-social {
+    display: none;
+  }
+  .main-header {
+    padding: 1.3rem 5%;
+  }
+  .main-header .nav-list {
+    display: none;
+  }
+  .sidebar-menu-box {
+    display: block;
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .sidebar-menu-box .sidebar-list {
+    display: none;
+  }
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 80dvh;
+    padding-top: 0;
+    justify-content: center;
+  }
+  .hero-section .hero-section-right {
+    text-align: center;
+  }
+  .hero-section-right .hero-image-subtitle {
+    right: 18%;
+  }
+  .hero-section-right .hero-shape {
+    right: 1%;
+  }
+  .slogan-container {
+    width: 90%;
+  }
+  .project-section {
+    width: 80%;
+    font-size: 80%;
+  }
+  .project-section .title-box .title::after {
+    width: 25dvw;
+  }
+  /* projects shape */
+  .project-section .projects-shape {
+    top: 15%;
+    left: -35%;
+  }
+  .skills-container {
+    width: 85%;
+    margin: 7rem auto;
+  }
+  .about-container {
+    width: 85%;
+  }
+  .about-container .title-box .title::after {
+    width: 22dvw;
+  }
+  .about-container .about-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .about-wrapper .about-right-section {
+    text-align: center;
+    align-self: flex-end;
+    margin-top: 3rem;
+  }
+  .about-right-section .dotted-shape {
+    width: 20%;
+    left: 65%;
+  }
+  .about-container .abouts-shape {
+    bottom: 10%;
+  }
+  .contact-container {
+    width: 85%;
+  }
+  .contact-container .contact-wrapper {
+    grid-template-columns: 1fr;
+  }
+  /* contacts shape */
+  .contact-container .contacts-shape {
+    top: 33%;
+    left: -33%;
+  }
+  .main-footer {
+    padding: 2rem 8%;
+  }
+  .apps-container {
+    width: 85%;
+  }
+  .about-container {
+    width: 85%;
+  }
+  .small-projects-container {
+    width: 75%;
+  }
+  .small-projects-container .small-dotted-shape {
+    left: -40%;
+  }
+  .small-projects-container .small-dotted-shape2 {
+    right: -40%;
+  }
+  .small-projects-container .small-square-shape {
+    width: 120px;
+    height: 120px;
+    top: -5%;
+    left: -55%;
+  }
+  .skills-container {
+    width: 85%;
+  }
+  .fun-facts-container {
+    width: 85%;
+  }
+  /* fun facts shape */
+  .fun-facts-wrapper .facts-shape {
+    right: -15%;
+    bottom: 35%;
+    width: 28%;
+  }
+  .fun-facts-wrapper .facts-dotted-shape {
+    top: 0;
+    right: -10%;
+    width: 18%;
+  }
+  .fun-facts-wrapper .facts-square-shape {
+    width: 100px;
+    height: 100px;
+    top: 15%;
+    left: -35%;
+  }
+  .contact-container {
+    width: 85%;
+  }
+  /* all media dotted shape */
+  .all-media-container .all-media-shape {
+    left: -28%;
+    width: 18%;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 766px) {
+  .about-right-section .about-sana-img {
+    width: 45%;
+  }
+}

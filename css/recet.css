@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "FiraCide font";
+  src: url(../assets/fonts/FiraCode-VariableFont_wght.ttf) format(TrueType);
+}
+body {
+  font-family: "FiraCide font", monospace;
+  background-color: #282c33;
+  color: #ffffff;
+  overflow-x: clip;
+}
+html {
+  overflow-x: clip;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style-type: none;
+}

@@ -1,0 +1,80 @@
+/*===========================================================
+   START CONTACT SECTION
+============================================================= */
+.contact-container {
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+/* purple line title */
+.contact-container .title-box .title::after {
+  width: 127px;
+}
+.contact-container .contact-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+/* left section */
+/* contact text */
+.contact-left-section .contact-text {
+  color: #abb2bf;
+  margin-bottom: 2rem;
+}
+/* right section */
+.contact-wrapper .contact-right-section {
+  text-align: end;
+  align-self: flex-end;
+}
+/* message box */
+.contact-right-section .message-box {
+  border: 1px solid #abb2bf;
+  text-align: start;
+  display: inline-block;
+  padding: 1rem;
+}
+/* message title */
+.message-box .message-header-title {
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+/* message social list */
+.message-box .social-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.message-box .social-link {
+  color: #abb2bf;
+  font-size: 1rem;
+  transition: all 0.4s;
+}
+.message-box .social-link:hover {
+  color: white;
+}
+/*===========================================================
+   START ALL MEDIA SECTION
+============================================================= */
+.all-media-container {
+  width: 70%;
+  margin: 4rem auto;
+  position: relative;
+}
+.all-media-container .all-media-list {
+  display: flex;
+  gap: 1rem;
+}
+.all-media-list .all-media-link {
+  color: #abb2bf;
+  font-size: 1.3rem;
+  transition: all 0.4s;
+}
+.all-media-list .all-media-link:hover{
+  color: white;
+}
+/* all media dotted shape */
+.all-media-container .all-media-shape{
+  position: absolute;
+  top: -20%;
+  left: -24%;
+  width: 7%;
+}

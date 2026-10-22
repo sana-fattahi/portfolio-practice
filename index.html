@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/recet.css" />
+    <link rel="stylesheet" href="./css/comman.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+  </head>
+  <body>
+    <!--********************* HEADER ***********************-->
+    <header class="main-header">
+      <!-- logo -->
+      <a href="/" class="logo-wrapper">
+        <img src="./assets/images/logo-icon.png" alt="logo" />
+        <h3>SanaLab</h3>
+      </a>
+      <!-- navigation bar -->
+      <nav>
+        <ul class="nav-list">
+          <li>
+            <a href="/" class="nav-link active">
+              <span class="sharp-sign">#</span>home
+            </a>
+          </li>
+          <li>
+            <a href="./pages/projects.html" class="nav-link">
+              <span class="sharp-sign">#</span>works
+            </a>
+          </li>
+          <li>
+            <a href="./pages/about.html" class="nav-link">
+              <span class="sharp-sign">#</span>about-me
+            </a>
+          </li>
+          <li>
+            <a href="./pages/contacts.html" class="nav-link">
+              <span class="sharp-sign">#</span>contacts
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- sidebar mobile menu -->
+      <div class="sidebar-menu-box">
+        <input type="checkbox" id="sidebar-input" hidden />
+        <label for="sidebar-input">
+          <img
+            class="burger-menu"
+            src="./assets/images/burger-menu.png"
+            alt="icon"
+          />
+          <img
+            class="close-icon"
+            src="./assets/images/close-icon.png"
+            alt="close icon"
+            hidden
+          />
+        </label>
+        <ul class="sidebar-list">
+          <li>
+            <a href="/" class="nav-link active">
+              <span class="sharp-sign">#</span>home
+            </a>
+          </li>
+          <li>
+            <a href="./pages/projects.html" class="nav-link">
+              <span class="sharp-sign">#</span>works
+            </a>
+          </li>
+          <li>
+            <a href="./pages/about.html" class="nav-link">
+              <span class="sharp-sign">#</span>about-me
+            </a>
+          </li>
+          <li>
+            <a href="./pages/contacts.html" class="nav-link">
+              <span class="sharp-sign">#</span>contacts
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- fixed social icon -->
+    <div class="fixed-social">
+      <div class="social-line"></div>
+      <ul class="fixed-social-list">
+        <li>
+          <a class="fixed-social-link" href="#">
+            <i class="ri-github-fill"></i>
+          </a>
+        </li>
+        <li>
+          <a class="fixed-social-link" href="#">
+            <i class="ri-linkedin-box-fill"></i>
+          </a>
+        </li>
+        <li>
+          <a class="fixed-social-link" href="#">
+            <i class="ri-telegram-fill"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <main>
+      <!--********************* HERO  **********************-->
+      <section class="hero-section">
+        <!-- hero section left -->
+        <div class="hero-section-left">
+          <!-- hero title -->
+          <h2 class="hero-title">
+            Sana is a <span class="hero-title-highlight">student</span> and
+            <br />
+            <span class="hero-title-highlight">front-end developer</span>
+          </h2>
+          <!-- hero text -->
+          <p class="hero-text">
+            I'm learning front-end development and<br />
+            building new project as i improve my skills!
+          </p>
+          <!-- hero button -->
+          <a class="hero-contact-btn" href="#">Contact me!!</a>
+        </div>
+        <!-- hero section right -->
+        <div class="hero-section-right">
+          <!-- hero image -->
+          <img
+            class="hero-image"
+            src="./assets/images/HeroImage.png"
+            alt="sana image"
+          />
+          <!-- hero subtitle image -->
+          <p class="hero-image-subtitle">Student & Front-end Learner</p>
+          <!-- hero shape -->
+          <img
+            class="hero-shape"
+            src="./assets/images/HeroShape.png"
+            alt="shape image"
+          />
+        </div>
+      </section>
+      <!--******************** SLOGAN  **********************-->
+      <div class="slogan-container">
+        <div class="slogan-box">
+          <!-- slogan left quote -->
+          <img
+            class="quote left-quote"
+            src="./assets/icons/left-quote.png"
+            alt="quote"
+          />
+          <!-- slogan text -->
+          <h3 class="slogan-text">
+            Curious enough to learn, creative enough to build!
+          </h3>
+          <!-- slogan right quote -->
+          <img
+            class="quote right-quote"
+            src="./assets/icons/right-quote.png"
+            alt="quote"
+          />
+        </div>
+      </div>
+      <!--***************** PROJECT SECTION  ****************-->
+      <section class="project-section">
+        <div class="title-box">
+          <!-- project title -->
+          <h3 class="title"><span class="sharp-title">#</span>project</h3>
+          <!-- project view all link -->
+          <a class="project-view-all" href="./pages/projects.html"
+            >View all ~~></a
+          >
+        </div>
+        <div class="project-wrapper">
+          <!-- project card 1-->
+          <article class="project-card">
+            <!-- project card image -->
+            <img
+              class="project-img"
+              src="./assets/images/project-1.jpg"
+              alt="project image"
+            />
+            <!-- project card languages -->
+            <div class="project-technologies">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Javascript</span>
+            </div>
+            <!-- project info box -->
+            <div class="project-info-box">
+              <h2 class="project-info-title">New Waive</h2>
+              <p class="project-info-text">Wear your confidence.</p>
+              <a class="project-info-link" href="#">Live <~></a>
+              <a class="project-info-link project-cached" href="#">Cached >=</a>
+            </div>
+          </article>
+          <!-- project card 2-->
+          <article class="project-card">
+            <!-- project card image -->
+            <img
+              class="project-img"
+              src="./assets/images/project-2.jpg"
+              alt="project image"
+            />
+            <!-- project card languages -->
+            <div class="project-technologies">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Javascript</span>
+              <span>React</span>
+            </div>
+            <!-- project info box -->
+            <div class="project-info-box">
+              <h2 class="project-info-title">Nikolai</h2>
+              <p class="project-info-text">Your world, your music.</p>
+              <a class="project-info-link" href="#">Live <~></a>
+            </div>
+          </article>
+          <!-- project card 3-->
+          <article class="project-card">
+            <!-- project card image -->
+            <img
+              class="project-img"
+              src="./assets/images/project-3.jpg"
+              alt="project image"
+            />
+            <!-- project card languages -->
+            <div class="project-technologies">
+              <span>CSS</span>
+              <span>Express</span>
+              <span>Node</span>
+            </div>
+            <!-- project info box -->
+            <div class="project-info-box">
+              <h2 class="project-info-title">Burger Food</h2>
+              <p class="project-info-text">Get what your tummy wants!</p>
+              <a class="project-info-link" href="#">Live <~></a>
+            </div>
+          </article>
+        </div>
+        <!-- projects shape -->
+        <img
+          class="projects-shape"
+          src="./assets/images/dotted-shape.png"
+          alt="shape"
+        />
+      </section>
+      <!--*************** START SKILLS SECTION ***************-->
+      <div class="skills-container">
+        <div class="title-box">
+          <!-- skills title -->
+          <h3 class="title"><span class="sharp-title">#</span>skills</h3>
+        </div>
+        <div class="skills-wrapper">
+          <!-- skills column 1-->
+          <section class="skills-column">
+            <!-- skills box 1 -->
+            <div class="skills-box">
+              <p class="skills-header">Languages</p>
+              <div class="skills-content">
+                <p>TypeScript</p>
+                <p>Lua</p>
+                <p>Python</p>
+                <p>JavaScript</p>
+              </div>
+            </div>
+            <!-- skills box 2 -->
+            <div class="skills-box">
+              <p class="skills-header">Frameworks</p>
+              <div class="skills-content">
+                <p>React</p>
+                <p>Vue</p>
+                <p>Disnake</p>
+                <p>Discord</p>
+                <p>Flask</p>
+                <p>Express.js</p>
+              </div>
+            </div>
+          </section>
+          <!-- skills column 2-->
+          <section class="skills-column">
+            <!-- skills box 1 -->
+            <div class="skills-box">
+              <p class="skills-header">Databases</p>
+              <div class="skills-content">
+                <p>SQLite</p>
+                <p>PostgreSQL</p>
+                <p>Mongo</p>
+              </div>
+            </div>
+            <!-- skills box 2 -->
+            <div class="skills-box">
+              <p class="skills-header">Other</p>
+              <div class="skills-content">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>SCSS</p>
+                <p>REST</p>
+                <p>Jinja</p>
+              </div>
+            </div>
+          </section>
+          <!-- skills column 3-->
+          <section class="skills-column">
+            <!-- skills box 1 -->
+            <div class="skills-box">
+              <p class="skills-header">Tools</p>
+              <div class="skills-content">
+                <p>VSCode</p>
+                <p>Linux</p>
+                <p>Figma</p>
+                <p>Arch</p>
+                <p>Git</p>
+                <p>Font</p>
+                <p>Awesome</p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <!--*************** START ABOUT SECTION ***************-->
+      <section class="about-container">
+        <div class="title-box">
+          <!-- about title -->
+          <h3 class="title"><span class="sharp-title">#</span>about-me</h3>
+        </div>
+        <div class="about-wrapper">
+          <div class="about-left-section">
+            <p class="about-text">
+              Hello, I'm Sana! <br />
+              Learning & Creating.
+            </p>
+            <p class="about-text">
+              I started learning programming because i was curious abour how
+              websites work and how ideas can turn into something people can
+              actually use. i'm still learning and exploring. but i enjoy trying
+              new things, making small projects, and learning from every mistake
+              alomg the way.
+            </p>
+            <a class="about-btn" href="./pages/about.html">Read more -></a>
+          </div>
+          <div class="about-right-section">
+            <img
+              class="about-sana-img"
+              src="./assets/images/AboutMeImage.png"
+              alt="sana"
+            />
+            <img
+              class="dotted-shape"
+              src="./assets/images/dotted-shape.png"
+              alt="dots"
+            />
+          </div>
+        </div>
+        <!-- abouts shape -->
+        <div class="abouts-shape"></div>
+      </section>
+      <!--************** START CONTACT SECTION ***************-->
+      <div class="contact-container">
+        <div class="title-box">
+          <!-- about title -->
+          <h3 class="title"><span class="sharp-title">#</span>contact</h3>
+        </div>
+        <div class="contact-wrapper">
+          <section class="contact-left-section">
+            <p class="contact-text">
+              Have questions, suggestions, or just want to say hi? We’d love to
+              hear from you! At Soufi Learn, we’re always ready to help
+              students, learners
+            </p>
+            <p class="contact-text">
+              Whether it’s about our courses, a technical issue, or
+              collaboration opportunities, reach out and we’ll get back to you
+              as soon as possible
+            </p>
+          </section>
+          <section class="contact-right-section">
+            <div class="message-box">
+              <h4 class="message-header-title">Message me here</h4>
+              <ul class="social-list">
+                <li>
+                  <a href="#" class="social-link">
+                    <i class="ri-telegram-fill"></i>
+                    @soufi_learn
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="social-link">
+                    <i class="ri-github-fill"></i>
+                    @soufi-learn
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="social-link">
+                    <i class="ri-mail-send-fill"></i>
+                    @soufilearn@gmail.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <!-- sontacts shape -->
+        <img
+          class="contacts-shape"
+          src="./assets/images/dotted-shape.png"
+          alt="shape"
+        />
+      </div>
+    </main>
+    <!--************** FOOTER ***************-->
+    <footer class="main-footer">
+      <!-- logo -->
+      <a href="/" class="logo-wrapper">
+        <img src="./assets/images/logo-icon.png" alt="logo" />
+        <h3>SanaLab</h3>
+      </a>
+      <p>Where learning is more interesting than fun</p>
+      <p class="copy-right">© Copyright 2026. Made by SanaLab</p>
+    </footer>
+  </body>
+</html>

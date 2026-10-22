@@ -1,0 +1,133 @@
+/*===========================================================
+   START ABOUT SECTION
+============================================================= */
+.about-container {
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+.about-container .about-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+/* start left section  */
+/* about text */
+.about-left-section .about-text {
+  color: #abb2bf;
+  margin-bottom: 1.5rem;
+}
+/* start right section */
+.about-wrapper .about-right-section {
+  text-align: end;
+  position: relative;
+}
+.about-right-section .about-sana-img {
+  margin-top: -5rem;
+  border-bottom: 1px solid #c778dd;
+  width: 70%;
+}
+.about-right-section .dotted-shape {
+  position: absolute;
+  top: -10%;
+  left: 80%;
+  z-index: -1;
+}
+/* abouts shapes */
+.about-container .about-dotted-shape{
+  position: absolute;
+  top: 30%;
+  left: -25%;
+}
+.about-container .about-square-shape {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #abb2bf;
+  position: absolute;
+  right: -30%;
+  bottom: 25%;
+}
+/*===========================================================
+   START SKILLS SECTION
+============================================================= */
+.skills-container {
+  width: 70%;
+  margin: 7rem auto;
+  position: relative;
+}
+.skills-container .skills-wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+  gap: 1rem;
+}
+/* skills box */
+.skills-wrapper .skills-box {
+  border: 1px solid #abb2bf;
+}
+/* skills header box */
+.skills-box .skills-header {
+  padding: 0.5rem;
+  border-bottom: 1px solid #abb2bf;
+  font-weight: 500;
+}
+/* skills content box */
+.skills-box .skills-content {
+  color: #abb2bf;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+/* skilla dotted shape */
+.skills-container .skills-shape{
+  position: absolute;
+  top: -15%;
+  right: -25%;
+}
+/*===========================================================
+   START MY FUN FACTS SECTION
+============================================================= */
+.fun-facts-container{
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 9rem;
+  position: relative;
+}
+.fun-facts-container .fun-facts-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 70%;
+}
+.fun-facts-wrapper .fun-facts-card{
+  padding: 0.5rem;
+  border: 1px solid #abb2bf;
+  color: #abb2bf;
+}
+/* fun facts shape */
+.fun-facts-wrapper .facts-shape{
+  position: absolute;
+  right: 3%;
+  bottom: 50%;
+  width: 12%;
+}
+.fun-facts-wrapper .facts-dotted-shape{
+  position: absolute;
+  top: 15%;
+  right: 16%;
+  width: 6%;
+}
+.fun-facts-wrapper .facts-square-shape{
+  width: 155px;
+  height: 155px;
+  border: 1px solid #abb2bf;
+  position: absolute;
+  top: 15%;
+  left: -30%;
+}
+.fun-facts-wrapper .facts-dotted-shape2{
+  position: absolute;
+  bottom: 20%;
+  right: -23%;
+  width: 10%;
+}

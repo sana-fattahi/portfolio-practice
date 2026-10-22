@@ -1,0 +1,140 @@
+/*===========================================================
+   START COMPLETE APPS SECTION
+============================================================= */
+.apps-container{
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+.apps-container .apps-wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px,auto));
+  gap: 1rem;
+}
+/* apps card */
+.apps-wrapper .apps-card{
+  border: 1px solid #ABB2BF;
+  height: fit-content;
+}
+/* apps card image */
+.apps-card .apps-img{
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+/* apps technologies language */
+.apps-card .apps-technologies{
+  padding: 0.5rem;
+  color: #ABB2BF;
+  border-bottom: 1px solid #ABB2BF;
+}
+/* apps info box */
+.apps-card .apps-info-box{
+  padding: 1rem;
+}
+.apps-info-box .apps-info-title{
+  font-weight: 500;
+}
+.apps-info-box .apps-info-text {
+  color: #abb2bf;
+  margin: 1rem 0 1.5rem;
+}
+/* apps info links */
+.apps-info-box .apps-info-link {
+  border: 1px solid #c778dd;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  transition: all 0.4s;
+}
+.apps-info-box .apps-info-link:hover {
+  background-color: #c778dd33;
+}
+.apps-info-box .apps-cached {
+  color: #abb2bf;
+  border-color: #abb2bf;
+}
+.apps-info-box .apps-cached:hover {
+  background-color: #abb2bf33;
+}
+/* complete apps shapes */
+.apps-container .apps-dotted-shape{
+  position: absolute;
+  top: 15%;
+  left: -25%;
+}
+/* square shape */
+.apps-container .apps-square-shape{
+  width: 150px;
+  height: 150px;
+  border: 1px solid #abb2bf;
+  position: absolute;
+  top: -2%;
+  right: -30%;
+}
+/*===========================================================
+   START SMALL PROJECTS SECTION
+============================================================= */
+.small-projects-container{
+  width: 70%;
+  margin: 5rem auto;
+  position: relative;
+}
+.small-projects-container .small-wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 1rem;
+}
+/* small projects box */
+.small-projects-container .small-wrapper .small-box{
+  /* width: 32%; */
+  border: 1px solid #abb2bf;
+  height: fit-content;
+}
+/* header box */
+.small-projects-container .small-box .small-header{
+  padding: 0.5rem;
+  color: #ABB2BF;
+  border-bottom: 1px solid #ABB2BF;
+}
+/* content box */
+.small-projects-container .small-box .small-content{
+  padding: 1rem;
+}
+.small-projects-container .small-content .small-info-title {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.small-projects-container .small-content .small-info-text{
+  color: #abb2bf;
+  margin: 1rem 0 1.5rem;
+}
+/* apps info links */
+.small-projects-container .small-content .small-info-link {
+  border: 1px solid #c778dd;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  transition: all 0.4s;
+}
+.small-projects-container .small-content .small-info-link:hover {
+  background-color: #c778dd33;
+}
+/* small projects shapes */
+.small-projects-container .small-dotted-shape{
+  position: absolute;
+  bottom: 25%;
+  left: -25%;
+}
+.small-projects-container .small-dotted-shape2{
+  position: absolute;
+  top: 15%;
+  right: -22%;
+}
+/* square shape */
+.small-projects-container .small-square-shape{
+  width: 150px;
+  height: 150px;
+  border: 1px solid #abb2bf;
+  position: absolute;
+  top: -8%;
+  left: -30%;
+}
